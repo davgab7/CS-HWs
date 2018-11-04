@@ -1,0 +1,16 @@
+Bad1
+
+"error: reached end of file while parsing" which is a compilation error.
+The reason for the error is a missing '}' at the end.
+
+
+Bad2
+
+"error: class BAD2 is public, should be declared in a file named BAD2.java" which is a compilation error.
+The reason for the error is that the name of the public class doesn't match the .java filename.
+
+
+Bad3
+
+"This homework is due January Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.String" - which is a runtime error.
+The error occures because the println is trying to fit a string variable into a double(%d).
